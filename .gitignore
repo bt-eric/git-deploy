@@ -1,0 +1,12 @@
+# IDEs #
+########
+.idea
+
+# Sensitive Files #
+###################
+config.yml
+
+# Composer #
+# ##########
+composer.lock
+vendor

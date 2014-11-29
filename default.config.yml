@@ -1,0 +1,25 @@
+defaults:
+    mailer:
+        smtp: true
+        host: mysmtphost.com
+        smtpAuth: true
+        username: username
+        password: password
+        smtpSecure: tls
+        port: 587
+        from: somemail@example.com
+        fromName: 'Harvey Manfredjinsinjin-din'
+        to: email1@example.com,email2@example.com
+    git:
+        branch: master
+repos:
+    myrepo1:
+        git:
+            repositoryPath: /somepath
+            branch: dev
+        mailer:
+            to: email1_repospecific@example.com
+    myrepo2:
+        git:
+            repositoryPath: /someotherpath
+            branch: develop

@@ -1,0 +1,18 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "v5.2.9",
+        "sebastian/git": "dev-master",
+        "symfony/yaml": "v2.6.0"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url":  "https://github.com/bt-eric/git.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BtDeploy\\": "src/"
+        }
+    }
+}
