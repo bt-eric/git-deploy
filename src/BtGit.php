@@ -1,8 +1,7 @@
 <?php
 /**
  * @file
- * Install, update, and uninstall functions for the Foo Bar module.
- * Contains \Fully\Qualified\Namespace\And\NameOfTheClass.
+ * Contains \BtDeploy\BtGit.
  */
 
 namespace BtDeploy;
